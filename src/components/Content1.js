@@ -21,7 +21,7 @@ export default function Content1(){
                 <div className=" flex flex-grow-2 justify-center items-center">
                     <div className="bg-blue-500 h-32 rounded-md ">
                         <h1 className="text-6xl pl-5 pt-5">안녕하세요</h1>
-                        <h4 className="text-3xl p-2">프론트개발자를 목표로 공부중인 정준호입니다.</h4>
+                        <h4 className="text-3xl p-2">"Frontend Developer" 정준호입니다.</h4>
                     </div>
                 </div>
             </DIV>
