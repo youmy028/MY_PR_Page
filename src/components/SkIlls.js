@@ -4,9 +4,14 @@ export default function Skills(){
     const ICON = styled.i`
         width:500px;
     `
+    const DIV = styled.div`
+        
+        height:600px;
+        
+    `
     return(
         
-        <>
+        <DIV>
             <div className="pt-28">
                 <h1 className="text-2xl text-center">SKILLS</h1>
                 <h3 className="pt-3 text-center">WHAT I HAVE</h3> 
@@ -19,6 +24,6 @@ export default function Skills(){
                 <div className="text-center text-7xl"><ICON className="fa-brands fa-github"></ICON><span className="flex flex-1 justify-center text-xl pt-5">Git</span><span className="flex flex-1 justify-center pt-2 pb-5 text-sm">프로젝트 코드 관리, add, commit, pull, push, branch 사용</span></div>
                 <div className="text-center text-7xl"><ICON className="fa-brands fa-python text-yellow-400"></ICON><span className="flex flex-1 justify-center text-xl pt-5">Python</span><span className="flex flex-1 justify-center pt-2 pb-3 text-sm">ArrayList, Pandas등 사용</span></div>
             </div>
-        </> 
+        </DIV> 
     )
 }

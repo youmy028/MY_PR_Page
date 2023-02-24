@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 import Content1 from "../components/Content1";
 import Header from "../components/Header"
 import Skills from "../components/SkIlls";
+import Contact from "../components/Contact";
 export default function MainPage(){
     const WRAP = styled.div`
      width:100%;
@@ -17,6 +18,7 @@ export default function MainPage(){
                 <Header/>
                 <Content1/>
                 <Skills/>
+                <Contact/>
             </CONTAINER>
         </WRAP> 
     );
