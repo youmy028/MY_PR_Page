@@ -1,4 +1,4 @@
-import { Fade } from "react-awesome-reveal";
+
 import styled from "@emotion/styled";
 export default function Skills(){
     const ICON = styled.i`

@@ -3,6 +3,7 @@ import Content1 from "../components/Content1";
 import Header from "../components/Header"
 import Skills from "../components/SkIlls";
 import Contact from "../components/Contact";
+import Balance from "./Balance";
 export default function MainPage(){
     const WRAP = styled.div`
      width:100%;
@@ -15,10 +16,11 @@ export default function MainPage(){
     return(
         <WRAP>
             <CONTAINER>
-                <Header/>
+                {/* <Header/>
                 <Content1/>
                 <Skills/>
-                <Contact/>
+                <Contact/> */}
+                <Balance/>
             </CONTAINER>
         </WRAP> 
     );

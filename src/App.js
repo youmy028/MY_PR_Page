@@ -6,9 +6,9 @@ function App() {
   return (
     <>
     <Routes>
-        <Route path="/preview" element={<PreviewPage />} />
+        {/* <Route path="/preview" element={<PreviewPage />} /> */}
         <Route path="/main" element={<MainPage />} />
-        <Route path="*" element={<Navigate to="/preview" />} />
+        <Route path="*" element={<Navigate to="/main" />} />
       </Routes>
     </>
   );
