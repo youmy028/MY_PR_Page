@@ -4,7 +4,7 @@ import Header from "../components/Header"
 import Skills from "../components/SkIlls";
 import Contact from "../components/Contact";
 import Balance from "./Balance";
-import Game from "../components/Game";
+import TicTacToc from "./TicTacToc";
 
 export default function MainPage(){
     const WRAP = styled.div`
@@ -23,7 +23,7 @@ export default function MainPage(){
                 <Skills/>
                 <Contact/>
                 <Balance/>
-                <Game/>
+                <TicTacToc className="bg-red-500"/>
             </CONTAINER>
         </WRAP> 
     );
