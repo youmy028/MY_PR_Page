@@ -8,7 +8,7 @@ export default function Balance(){
     `
     return(
         <>
-            <DIV className="flex flex-col justify-center items-center p-2">
+            <DIV className="flex flex-col justify-center items-center">
                 <h1>PRESS</h1>
                 <h4>START</h4>
                 <Button variant="contained">START</Button>

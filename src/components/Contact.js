@@ -13,8 +13,8 @@ export default function Contact(){
         line-height:150px;
     `
     return(
-        <DIV1>
-            <DIV2 className="shadow-2xl bg-blue-300 ">
+        
+        <DIV2 className="shadow-2xl bg-blue-300 ">
             <Fade cascade damping={0.5}>
                 <H3 className="text-center text-3xl">CONTACT</H3>
                 <h3 className="text-xl text-center p-5"><i className="fa-brands fa-github pr-3"></i>MY<a href="#" className="text-white pl-2">Github</a></h3>
@@ -24,7 +24,7 @@ export default function Contact(){
                     youmy1409@gamil.com
                 </h3>
              </Fade>   
-            </DIV2>
-        </DIV1>
+        </DIV2>
+    
     )
 };

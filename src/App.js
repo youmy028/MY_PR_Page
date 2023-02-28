@@ -1,4 +1,4 @@
-
+import './index.css';
 import PreviewPage from "./pages/PreviewPage";
 import MainPage from "./pages/MainPage";
 import { Routes, Route,Navigate } from "react-router-dom";
